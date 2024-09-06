@@ -1,0 +1,247 @@
+{
+    "columns": {
+        "Customer_Birthyear": {
+            "sdtype": "numerical"
+        },
+        "Customer_Gender": {
+            "sdtype": "categorical"
+        },
+        "Customer_personal_identifier": {
+            "sdtype": "categorical"
+        },
+        "Last_Name": {
+            "sdtype": "categorical"
+        },
+        "First_Name": {
+            "sdtype": "categorical"
+        },
+        "Customer_identification_number": {
+            "sdtype": "categorical"
+        },
+        "Cid1": {
+            "sdtype": "categorical"
+        },
+        "Cid2": {
+            "sdtype": "categorical"
+        },
+        "Customer_registration_datetime": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d %H:%M:%S"
+        },
+        "Customer_credit_rating": {
+            "sdtype": "categorical"
+        },
+        "Customer_flag_change_of_authentication_1": {
+            "sdtype": "categorical"
+        },
+        "Customer_flag_change_of_authentication_2": {
+            "sdtype": "categorical"
+        },
+        "Customer_flag_change_of_authentication_3": {
+            "sdtype": "categorical"
+        },
+        "Customer_flag_change_of_authentication_4": {
+            "sdtype": "categorical"
+        },
+        "Customer_rooting_jailbreak_indicator": {
+            "sdtype": "categorical"
+        },
+        "Customer_mobile_roaming_indicator": {
+            "sdtype": "categorical"
+        },
+        "Customer_VPN_Indicator": {
+            "sdtype": "categorical"
+        },
+        "Customer_loan_type": {
+            "sdtype": "categorical"
+        },
+        "Customer_flag_terminal_malicious_behavior_1": {
+            "sdtype": "categorical"
+        },
+        "Customer_flag_terminal_malicious_behavior_2": {
+            "sdtype": "categorical"
+        },
+        "Customer_flag_terminal_malicious_behavior_3": {
+            "sdtype": "categorical"
+        },
+        "Customer_flag_terminal_malicious_behavior_4": {
+            "sdtype": "categorical"
+        },
+        "Customer_flag_terminal_malicious_behavior_5": {
+            "sdtype": "categorical"
+        },
+        "Customer_flag_terminal_malicious_behavior_6": {
+            "sdtype": "categorical"
+        },
+        "Customer_inquery_atm_limit": {
+            "sdtype": "categorical"
+        },
+        "Customer_increase_atm_limit": {
+            "sdtype": "categorical"
+        },
+        "Account_account_number": {
+            "sdtype": "categorical"
+        },
+        "Account_account_type": {
+            "sdtype": "categorical"
+        },
+        "Account_creation_datetime": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d %H:%M:%S"
+        },
+        "Account_initial_balance": {
+            "sdtype": "numerical"
+        },
+        "Account_balance": {
+            "sdtype": "numerical"
+        },
+        "Account_indicator_release_limit_excess": {
+            "sdtype": "categorical"
+        },
+        "Account_amount_daily_limit": {
+            "sdtype": "numerical"
+        },
+        "Account_indicator_Openbanking": {
+            "sdtype": "categorical"
+        },
+        "Account_remaining_amount_daily_limit_exceeded": {
+            "sdtype": "numerical"
+        },
+        "Account_release_suspention": {
+            "sdtype": "categorical"
+        },
+        "Account_one_month_max_amount": {
+            "sdtype": "numerical"
+        },
+        "Account_one_month_std_dev": {
+            "sdtype": "numerical"
+        },
+        "Account_dawn_one_month_max_amount": {
+            "sdtype": "numerical"
+        },
+        "Account_dawn_one_month_std_dev": {
+            "sdtype": "numerical"
+        },
+        "Transaction_Datetime": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d %H:%M:%S"
+        },
+        "Transaction_Amount": {
+            "sdtype": "numerical"
+        },
+        "Channel": {
+            "sdtype": "categorical"
+        },
+        "Operating_System": {
+            "sdtype": "categorical"
+        },
+        "Error_Code": {
+            "sdtype": "categorical"
+        },
+        "Transaction_Failure_Status": {
+            "sdtype": "categorical"
+        },
+        "Type_General_Automatic": {
+            "sdtype": "categorical"
+        },
+        "IP_Address": {
+            "sdtype": "ipv4_address"
+        },
+        "MAC_Address": {
+            "sdtype": "mac_address"
+        },
+        "Access_Medium": {
+            "sdtype": "categorical"
+        },
+        "Location": {
+            "sdtype": "categorical"
+        },
+        "Recipient_Account_Number": {
+            "sdtype": "categorical"
+        },
+        "Transaction_num_connection_failure": {
+            "sdtype": "numerical"
+        },
+        "Another_Person_Account": {
+            "sdtype": "categorical"
+        },
+        "Distance": {
+            "sdtype": "numerical"
+        },
+        "Time_difference": {
+            "sdtype": "numerical"
+        },
+        "Unused_terminal_status": {
+            "sdtype": "categorical"
+        },
+        "Last_atm_transaction_datetime": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d %H:%M:%S"
+        },
+        "Last_bank_branch_transaction_datetime": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d %H:%M:%S"
+        },
+        "Flag_deposit_more_than_tenMillion": {
+            "sdtype": "categorical"
+        },
+        "Unused_account_status": {
+            "sdtype": "categorical"
+        },
+        "Recipient_account_suspend_status": {
+            "sdtype": "categorical"
+        },
+        "Number_of_transaction_with_the_account": {
+            "sdtype": "numerical"
+        },
+        "Transaction_history_with_the_account": {
+            "sdtype": "numerical"
+        },
+        "First_time_iOS_by_vulnerable_user": {
+            "sdtype": "categorical"
+        },
+        "Transaction_resumed_date": {
+            "sdtype": "datetime",
+            "datetime_format": "%Y-%m-%d %H:%M:%S"
+        },
+        "Fraud_Type": {
+            "sdtype": "categorical"
+        },
+        "Transaction_Age": {
+            "sdtype": "numerical"
+        },
+        "Transaction_age_group": {
+            "sdtype": "categorical"
+        },
+        "Time_diff_last_atm_resume": {
+            "sdtype": "numerical"
+        },
+        "Time_diff_last_bank_branch_resume": {
+            "sdtype": "numerical"
+        },
+        "Time_diff_transaction_resume": {
+            "sdtype": "numerical"
+        },
+        "Time_diff_transaction_creation": {
+            "sdtype": "numerical"
+        },
+        "Time_diff_creation_registreation": {
+            "sdtype": "numerical"
+        },
+        "Customer_flag_change_of_authentications": {
+            "sdtype": "categorical"
+        },
+        "rooting_jailbreak_roaming_VPN": {
+            "sdtype": "categorical"
+        },
+        "Customer_flag_terminal_malicious_behaviors": {
+            "sdtype": "categorical"
+        },
+        "Customer_atm_limits": {
+            "sdtype": "categorical"
+        },
+        "Channel_OS": {
+            "sdtype": "categorical"
+        }
+    }
+}
