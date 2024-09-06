@@ -44,7 +44,6 @@ This repository contains the code for the 2nd place solution in the FSI AIxData 
 ```
 
 # How to Use
-  **주의사항 : CTGAN은 데이터 생성 시 seed 설정 기능이 없어 생성 결과를 대신 저장했기 때문에 결과 검증 시에는 clf_best.py부터 진행해야 합니다.**
   - **Train synthetic models for submission : syn.py**  
     
   - **Train synthetic models for data augmentation: : syn_ctgan.py**
