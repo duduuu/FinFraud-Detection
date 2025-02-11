@@ -1,5 +1,6 @@
-# 2nd Place Solution for FSI AIxData Challenge 2024
-This repository contains the code for the 2nd place solution in the FSI AIxData Challenge 2024, achieving a private score of 0.81983.
+# FinFraud-Detection : FSI AIxData Challenge 2024
+
+Implement classification AI models with abnormal financial transaction datasets and apply/utilize open source generated AI models to improve the performance of classification AI models
 
 - Team Name: 인형눈붙이기장인
 - Team Members: 백두현(두둡), 신찬호(인형눈붙이기장인)
