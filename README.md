@@ -1,9 +1,9 @@
-# FinFraud-Detection : FSI AIxData Challenge 2024
+# FSI AIxData Challenge 2024 2nd Place Solution
 
 Implement classification AI models with abnormal financial transaction datasets and apply/utilize open source generated AI models to improve the performance of classification AI models
 
 - Team Name: 인형눈붙이기장인
-- Team Members: 백두현(두둡), 신찬호(인형눈붙이기장인)
+- Team Members: 백두현(뚜찌), 신찬호(인형눈붙이기장인)
 
 # Repository Structure
 
@@ -83,6 +83,3 @@ Implement classification AI models with abnormal financial transaction datasets 
     ```
   
   - **Model Ensembling : ensemble.py**
-
-# Result
-  - **2nd Place** : Achieved a private score of 0.81983.
